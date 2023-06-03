@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/app.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css">
+  <title>Weather Page</title>
+</head>
+<body>
+  <div class="container">
+    <h1 class="text-center mb-5">Weather Forecast</h1>
+
+    <div class="row">
+      <div class="col-md-6 offset-md-3">
+        <form class="mb-3">
+          <div class="input-group">
+            <input type="text" class="form-control" placeholder="Enter city" id="cityname" required>
+            <button class="btn btn-primary" type="submit" id="sbtButton">Search</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-6 offset-md-3">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title" id="name">City Name</h5>
+            <p class="card-text temperature" id="temp" >NA</p>
+           
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.bundle.min.js"></script>
+  <script src="./js/main.js"></script>
+</body>
+</html>

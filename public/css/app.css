@@ -1,0 +1,64 @@
+body {
+  background-color: #f8f9fa;
+}
+
+.container {
+  margin-top: 50px;
+}
+
+.card {
+  margin-top: 20px;
+  border: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.card-text {
+  font-size: 18px;
+  color: #666;
+}
+
+.temperature {
+  color: #e74c3c;
+}
+
+.weather {
+  color: #3498db;
+}
+
+.humidity {
+  color: #2ecc71;
+}
+
+.wind {
+  color: #9b59b6;
+}
+
+.input-group {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.btn-primary {
+  background-color: #3498db;
+  border-color: #3498db;
+}
+
+.btn-primary:hover {
+  background-color: #2185d0;
+  border-color: #2185d0;
+}
+
+.btn-primary:focus {
+  box-shadow: none;
+}
+
+.btn-primary:active {
+  background-color: #2185d0;
+  border-color: #2185d0;
+  box-shadow: none;
+}
